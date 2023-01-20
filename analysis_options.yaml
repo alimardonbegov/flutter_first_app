@@ -29,8 +29,8 @@ linter:
     # `// ignore_for_file: name_of_lint` syntax on the line or in the file
     # producing the lint.
     rules:
-        - prefer_const_constructors
-        - prefer_const_declarations
+        # - prefer_const_constructors
+        # - prefer_const_declarations
         # - avoid_print
         # - use_key_is_widget_constructors
         # !константные конструкторы будут создаваться на этапе компиляции, а не у пользователя по время запуска. Подсказки дает
